@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Details</title>
+    <link rel="stylesheet" href="/frontend/task.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="brand">
+          <h2>FIT CONNECT</h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/frontend/profile.html">Profile</a></li>
+            <li><a href="/frontend/userDashboard.html">Dashboard</a></li>
+            <li><a href="/frontend/task.html" class="active">Tasks</a></li>
+            <li><a href="/frontend/setting.html">Settings</a></li>
+          </ul>
+        </nav>
+        <div class="add-task">
+          <button>Add Task</button>
+        </div>
+      </div>
+      <div class="main-content">
+        <header>
+          <input type="text" placeholder="Search..." />
+          <div class="user-info">
+            <span>George Kerman</span>
+            <img src="profile.jpg" alt="Profile" />
+          </div>
+        </header>
+        <div class="task-details">
+          <h2>Task Title</h2>
+          <p>Provided by: Trainer Name</p>
+          <div class="task-info">
+            <h3>Task Description</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              sit amet accumsan tortor. Ut vel magna in orci vehicula tempus at
+              sed lorem. Integer et venenatis ligula.
+            </p>
+          </div>
+          <div class="task-nutrients">
+            <h3>Nutrition Details</h3>
+            <ul>
+              <li>Protein: 30g</li>
+              <li>Carbohydrates: 50g</li>
+              <li>Fats: 10g</li>
+              <li>Vitamins: A, C, D</li>
+            </ul>
+          </div>
+          <div class="task-actions">
+            <button id="complete-btn">Mark as Completed</button>
+            <button id="edit-btn">Edit Task</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/frontend/task.js"></script>
+  </body>
+</html>

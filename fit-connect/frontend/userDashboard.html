@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="/frontend/userDashboard.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="brand">
+          <h2>FIT CONNECT</h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/frontend/profile.html">Profile</a></li>
+            <li>
+              <a href="/frontend/userDashboard.html" class="active"
+                >Dashboard</a
+              >
+            </li>
+            <li><a href="/frontend/task.html">Tasks</a></li>
+            <li><a href="/frontend/setting.html">Settings</a></li>
+          </ul>
+        </nav>
+        <div class="add-task">
+          <button>Add Task</button>
+        </div>
+      </div>
+      <div class="main-content">
+        <header>
+          <div class="user-info">
+            <span>George Kerman</span>
+            <img src="profile.jpg" alt="Profile" />
+          </div>
+        </header>
+        <div class="content">
+          <div class="stats">
+            <div class="chart">
+              <h3>Your Statistics</h3>
+              <!-- Insert Chart Here -->
+            </div>
+            <div class="progress">
+              <h3>Your Progress</h3>
+              <div class="progress-circle">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="details">
+            <div class="tasks">
+              <h3>Tasks for Today</h3>
+              <!-- Insert Task Details Here -->
+            </div>
+            <div class="activities">
+              <h3>New Activities</h3>
+              <!-- Insert Activities Here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
